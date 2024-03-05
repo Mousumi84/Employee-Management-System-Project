@@ -148,12 +148,8 @@ prefilledForm.addEventListener("submit",  (e)=> {
 //DELETE INFO
 
 function deleteButton(dlt) {
-// console.log(dlt);
 dlt.addEventListener("click", (e) => {
-    //console.log(e);
      let deleteBtn = e.target;
-     //console.log("Delete");
-    // console.log(deleteBtn);
     deleteBtn.parentNode.parentNode.remove();
     
 })
